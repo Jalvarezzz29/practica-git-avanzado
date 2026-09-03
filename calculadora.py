@@ -30,3 +30,7 @@ def promedio(lista_numeros):
 
 def valor_absoluto_resta(a, b):
     return abs(a - b)
+
+def es_par(numero):
+    """Retorna True si el numero es par, False si es impar."""
+    return numero % 2 == 0
